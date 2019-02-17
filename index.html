@@ -9,14 +9,21 @@
 	font-style: normal;
 	font-size: 1.2em;
 	}
+	input{
+	font-size: 1.2em;
+	}
+	button{
+	font-size: 1.2em;
+	width: 5em;
+	}
 	</style>
 </head>
 <body onload="nunu()">
 	<h1 id="demo3"></h1>
 	<h1>Datum:
 	<input type="datetime-local" id="datumin">
-	<button type="button" onclick="getDate()">
-		HELP
+	<button size="1em" type="button" onclick="getDate()">
+		Start
 	</button>
 	<button type="button" onclick="nuu()">
 		Reset
@@ -25,8 +32,10 @@
 	
 	<h2 id="demo"></h2>
 	<h2 id="demo1"></h2>
-	<h2 id="demo2"></h2>
-	<p>Het gesprek begint eerst met 1 van de uur zinnen, daar word op gereageerd met een dag zin. Als laatste nog een minuut zin<br />
+	<h2 id="demo2"></h2><br />
+	
+	<p><b>Uitleg:</b><br />
+	Het gesprek begint eerst met 1 van de uur zinnen, daar word op gereageerd met een dag zin. Als laatste nog een minuut zin<br />
 	Als de datum een even getal is begint Sophie het gesprek en reageerd Rudolf. De laatste zin wordt weer door Sophie gezegd. </p>
 	<p>
 	<b>Uur zinnen: </b><br />
